@@ -10,6 +10,7 @@
     "babel-polyfill": "^6.26.0",
     "bootstrap": "^4.1.2",
     "jquery": "^3.3.1",
+    "js-yaml": "^3.13.1",
     "popper.js": "^1.14.3"
   },
   "devDependencies": {
@@ -33,7 +34,7 @@
     "grunt-sass-lint": "^0.2.4",
     "grunt-shell": "^2.1.0",
     "grunt-webpack": "^3.0.2",
-    "handlebars": "^4.0.11",
+    "handlebars": "^4.5.3",
     "handlebars-loader": "^1.6.0",
     "load-grunt-config": "^0.19.2",
     "node-libs-browser": "^2.1.0",
