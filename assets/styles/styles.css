@@ -49,7 +49,7 @@ header {
 
 /* Home Page CSS */
 
-.home-page {
+.main-page {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -57,7 +57,7 @@ header {
     width: 100%;
 }
 
-.home-page-image {
+.main-page-image {
     max-width: 800px;
     height: auto;
     padding: 30px;
