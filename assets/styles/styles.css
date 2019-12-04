@@ -30,20 +30,20 @@ header {
     width: 80px;
 }
 
-.nav__links {
+.nav-links {
     list-style: none;
 }
 
-.nav__links li {
+.nav-links li {
     display: inline-block;
     padding: 0px 30px;
 }
 
-.nav__links li a {
+.nav-links li a {
     transition: all 0.3s ease 0s;
 }
 
-.nav__links li a:hover {
+.nav-links li a:hover {
     color: grey;
 }
 
