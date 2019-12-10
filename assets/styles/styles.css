@@ -6,6 +6,8 @@
 }
 
 /* Header and Nav CSS  */
+/* Header and Nav CSS  */
+/* Header and Nav CSS  */
 li, a, p {
     font-family: 'Barlow', sans-serif;
     font-weight: 500;
@@ -47,7 +49,9 @@ header {
     color: grey;
 }
 
-/* Home Page CSS */
+/* Main Pages CSS */
+/* Main Pages CSS */
+/* Main Pages CSS */
 
 .main-page {
     display: flex;
@@ -71,5 +75,67 @@ header {
 }
 
 
-/* The burger-menu menu */
+/* The burger menu */
+/* The burger menu */
+/* The burger menu */
 
+
+.burger-menu  {
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 0;
+    position: fixed;
+    border-left: 1px solid black;
+    overflow: hidden;
+    white-space: nowrap;
+    z-index: 1;
+    height: 100%;
+    top: 0;
+    right: 0;
+    background-color: white;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .burger-menu a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .burger-menu a:hover {
+    color: #f1f1f1;
+  }
+  
+  .burger-menu .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+  }
+  
+  @media screen and (max-width: 768px){
+      .nav-links {
+          display: none;
+      }
+
+
+  }
+  /* .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+  } */
+  
+  /* .openbtn:hover {
+    background-color:#444;
+  } */
