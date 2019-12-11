@@ -69,7 +69,7 @@ const showHoursPage = () => {
 // HAMBURGER NAV EVENTS
 
 const openNav = () => {
-  document.getElementById('burger-menu').style.width = '250px'
+  document.getElementById('burger-menu').style.width = '50%'
 }
 
 const closeNav = () => {

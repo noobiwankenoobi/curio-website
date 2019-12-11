@@ -62,14 +62,14 @@ header {
 }
 
 .main-page-image {
-    max-width: 800px;
+    max-width: 80%;
     height: auto;
     padding: 30px;
     margin: 20px;
 }
 
 .home-page-written-content {
-    width: 800px;
+    width: 70%;
     text-align: center;
     margin: 20px 20px 80px 20px;
 }
@@ -119,10 +119,46 @@ header {
     right: 25px;
     font-size: 36px;
   }
+
+  #burger-button {
+      display: none;
+  }
+
   
   @media screen and (max-width: 768px){
-      .nav-links {
+    header {
+        justify-content: center;
+        align-content: center;
+        align-items: right;
+        padding: 20px 10%;
+    }
+    
+    .nav-links {
           display: none;
+      }
+
+      .logo {
+          margin: auto;
+      }
+
+      .main-page-image {
+          max-width: 90%;
+          margin-bottom: 10px;
+      }
+
+      .home-page-written-content {
+          font-size: 14px;
+          width: 80%;
+          margin: 10px;
+      }
+
+      #burger-button {
+          display: inline-block;
+          margin-left: auto;
+      }
+
+      .fa-bars {
+        size: 5x;
       }
 
 
