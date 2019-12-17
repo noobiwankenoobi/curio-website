@@ -5,19 +5,20 @@
     background-color: white;
 }
 
-/* Header and Nav CSS // Header and Nav CSS */
-/* Header and Nav CSS // Header and Nav CSS */
-/* Header and Nav CSS // Header and Nav CSS */
+/* DESKTOP SCREEN // DESKTOP SCREEN // DESKTOP SCREEN */
+/* DESKTOP SCREEN // DESKTOP SCREEN // DESKTOP SCREEN */
+/* DESKTOP SCREEN // DESKTOP SCREEN // DESKTOP SCREEN */
+/* DESKTOP SCREEN // DESKTOP SCREEN // DESKTOP SCREEN */
 
 
-li, a {
-    /* font-family: 'Barlow', sans-serif; */
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    color: #363636;
-    text-decoration: none;
+body {
+    padding-bottom: 50px;
 }
+
+/* HEADER AND NAV // HEADER AND NAV // HEADER AND NAV */
+/* HEADER AND NAV // HEADER AND NAV // HEADER AND NAV */
+/* HEADER AND NAV // HEADER AND NAV // HEADER AND NAV */
+
 
 header {
     display: flex;
@@ -27,6 +28,15 @@ header {
     position: fixed;
     width: 100%;
     height: 20vh;
+}
+
+li, a {
+    /* font-family: 'Barlow', sans-serif; */
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #363636;
+    text-decoration: none;
 }
 
 p {
@@ -60,9 +70,10 @@ p {
     color: grey;
 }
 
-/* Main Pages CSS // Main Pages CSS */
-/* Main Pages CSS // Main Pages CSS */
-/* Main Pages CSS // Main Pages CSS */
+/* MAIN PAGES // MAIN PAGES // MAIN PAGES  */
+/* MAIN PAGES // MAIN PAGES // MAIN PAGES  */
+/* MAIN PAGES // MAIN PAGES // MAIN PAGES  */
+
 
 .main-page {
     display: flex;
@@ -87,13 +98,22 @@ p {
     font-size: 14px;
 }
 
-/* Hours Page CSS // Hours Page CSS */
-/* Hours Page CSS // Hours Page CSS */
-/* Hours Page CSS // Hours Page CSS */
+/* HOURS PAGE // HOURS PAGE // HOURS PAGE  */
+/* HOURS PAGE // HOURS PAGE // HOURS PAGE  */
+/* HOURS PAGE // HOURS PAGE // HOURS PAGE  */
+
 
 .hours-content-wrapper {
     display: flex;
     justify-content: center;
+    align-content: center;
+}
+
+.hours-page-written-content {
+    font-size: 14px;
+    width: 70%;
+    margin: 10px;
+    text-align: center;
 }
 
 .curio-hours-div {
@@ -101,9 +121,20 @@ p {
     margin: 15px;
 }
 
-/* Burger Menu CSS // Burger Menu CSS */
-/* Burger Menu CSS // Burger Menu CSS */
-/* Burger Menu CSS // Burger Menu CSS */
+.east-cambridge {
+    font-size: 14px;
+    width: 80%;
+    margin: 10px;
+    text-align: center;
+}
+
+.address {
+    text-align: center;
+}
+
+/* BURGER MENU // BURGER MENU // BURGER MENU */
+/* BURGER MENU // BURGER MENU // BURGER MENU */
+/* BURGER MENU // BURGER MENU // BURGER MENU */
 
 
 .burger-menu  {
@@ -151,9 +182,9 @@ p {
   }
 
 
-  /* Intermediate Screen Size CSS */
-  /* Intermediate Screen Size CSS */
-  /* Intermediate Screen Size CSS */
+/* INTERMEDIATE SCREEN WIDTH // INTERMEDIATE SCREEN WIDTH */
+/* INTERMEDIATE SCREEN WIDTH // INTERMEDIATE SCREEN WIDTH */
+/* INTERMEDIATE SCREEN WIDTH // INTERMEDIATE SCREEN WIDTH */
 
 
   @media screen and (max-width: 1130px) {
@@ -161,7 +192,15 @@ p {
         padding: 0px 20px;
     }
   }
-  
+
+
+/* MOBILE SCREEN // MOBILE SCREEN // MOBILE SCREEN */
+/* MOBILE SCREEN // MOBILE SCREEN // MOBILE SCREEN */
+/* MOBILE SCREEN // MOBILE SCREEN // MOBILE SCREEN */
+/* MOBILE SCREEN // MOBILE SCREEN // MOBILE SCREEN */
+/* MOBILE SCREEN // MOBILE SCREEN // MOBILE SCREEN */
+
+
   @media screen and (max-width: 768px){
     header {
         justify-content: center;
@@ -181,10 +220,6 @@ p {
     
     .nav-links {
           display: none;
-      }
-
-      .logo {
-          /* margin: auto; */
       }
 
       .main-page-image {
@@ -214,20 +249,7 @@ p {
       .curio-hours-div {
         margin: 5px;
         text-align: center;
-    }
-
+        }
 
 
   }
-  /* .openbtn {
-    font-size: 20px;
-    cursor: pointer;
-    background-color: #111;
-    color: white;
-    padding: 10px 15px;
-    border: none;
-  } */
-  
-  /* .openbtn:hover {
-    background-color:#444;
-  } */
