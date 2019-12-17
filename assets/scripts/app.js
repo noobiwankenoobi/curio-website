@@ -97,8 +97,6 @@ const addHandlers = () => {
   $('.wine-page-burger-button').on('click', showWinePage)
   $('.press-page-burger-button').on('click', showPressPage)
   $('.hours-page-burger-button').on('click', showHoursPage)
-
-
 }
 
 // ON PAGE LOAD

@@ -10,7 +10,7 @@
 /* Header and Nav CSS // Header and Nav CSS */
 
 
-li, a, p {
+li, a {
     /* font-family: 'Barlow', sans-serif; */
     font-family: 'Work Sans', sans-serif;
     font-weight: 400;
@@ -27,6 +27,13 @@ header {
     position: fixed;
     width: 100%;
     height: 20vh;
+}
+
+p {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #363636;
 }
 
 .logo {
@@ -73,10 +80,11 @@ header {
     margin-top: 20vh;
 }
 
-.home-page-written-content {
+.main-page-written-content {
     width: 70%;
     text-align: center;
     margin: 20px 20px 80px 20px;
+    font-size: 14px;
 }
 
 /* Hours Page CSS // Hours Page CSS */
@@ -162,6 +170,14 @@ header {
         padding: 20px 10%;
         height: 20vh;
     }
+
+    p {
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        color: #363636;
+        text-decoration: none;
+    }
     
     .nav-links {
           display: none;
@@ -178,7 +194,7 @@ header {
           padding: 0px;
       }
 
-      .home-page-written-content {
+      .main-page-written-content {
           font-size: 14px;
           width: 80%;
           margin: 10px;
@@ -188,6 +204,17 @@ header {
           display: inline-block;
           margin-left: auto;
       }
+
+      .hours-content-wrapper {
+          display: flex;
+          flex-direction: column;
+        
+      }
+
+      .curio-hours-div {
+        margin: 5px;
+        text-align: center;
+    }
 
 
 
