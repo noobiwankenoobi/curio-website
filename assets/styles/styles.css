@@ -5,9 +5,11 @@
     background-color: white;
 }
 
-/* Header and Nav CSS  */
-/* Header and Nav CSS  */
-/* Header and Nav CSS  */
+/* Header and Nav CSS // Header and Nav CSS */
+/* Header and Nav CSS // Header and Nav CSS */
+/* Header and Nav CSS // Header and Nav CSS */
+
+
 li, a, p {
     /* font-family: 'Barlow', sans-serif; */
     font-family: 'Work Sans', sans-serif;
@@ -51,9 +53,9 @@ header {
     color: grey;
 }
 
-/* Main Pages CSS */
-/* Main Pages CSS */
-/* Main Pages CSS */
+/* Main Pages CSS // Main Pages CSS */
+/* Main Pages CSS // Main Pages CSS */
+/* Main Pages CSS // Main Pages CSS */
 
 .main-page {
     display: flex;
@@ -77,10 +79,23 @@ header {
     margin: 20px 20px 80px 20px;
 }
 
+/* Hours Page CSS // Hours Page CSS */
+/* Hours Page CSS // Hours Page CSS */
+/* Hours Page CSS // Hours Page CSS */
 
-/* The burger menu */
-/* The burger menu */
-/* The burger menu */
+.hours-content-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.curio-hours-div {
+    padding: 10px;
+    margin: 15px;
+}
+
+/* Burger Menu CSS // Burger Menu CSS */
+/* Burger Menu CSS // Burger Menu CSS */
+/* Burger Menu CSS // Burger Menu CSS */
 
 
 .burger-menu  {
@@ -90,7 +105,7 @@ header {
     align-items: center;
     width: 0;
     position: fixed;
-    border-left: 1px solid black;
+    border-left: 1px solid grey;
     overflow: hidden;
     white-space: nowrap;
     z-index: 1;
@@ -128,9 +143,9 @@ header {
   }
 
 
-  /* Intermediate Screen Size Styling */
-  /* Intermediate Screen Size Styling */
-  /* Intermediate Screen Size Styling */
+  /* Intermediate Screen Size CSS */
+  /* Intermediate Screen Size CSS */
+  /* Intermediate Screen Size CSS */
 
 
   @media screen and (max-width: 1130px) {
