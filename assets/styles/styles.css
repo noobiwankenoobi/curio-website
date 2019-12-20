@@ -119,6 +119,7 @@ p {
 .curio-hours-div {
     padding: 10px;
     margin: 15px;
+    text-align: center;
 }
 
 .east-cambridge {
@@ -130,6 +131,16 @@ p {
 
 .address {
     text-align: center;
+}
+
+.social-media-icons {
+    display: flex;
+}
+
+.social-media-icons li {
+    display: inline-block;
+    text-decoration: none;
+    margin: 20px;
 }
 
 /* BURGER MENU // BURGER MENU // BURGER MENU */
