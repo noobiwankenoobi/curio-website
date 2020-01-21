@@ -28,7 +28,7 @@ header {
     position: fixed;
     top: 0px;
     width: 100%;
-    height: 20vh;
+    height: 15vh;
 }
 
 li, a {
@@ -80,27 +80,18 @@ p {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    margin: 5vh;
 }
 
 .main-page-image {
     max-width: 60%;
     height: auto;
-    /* padding: 30px; */
     margin: 5vh;
-}
-
-.landing-page-image {
-    width: 80%;
-    height: 40vh;
-    margin-bottom: 5vh;
-    /* margin-top: 20vh; */
 }
 
 .main-page p {
     width: 70%;
     text-align: center;
-    margin: 5vh;
+    /* margin: 5vh; */
 }
 
 .main-page h1 {
@@ -116,6 +107,50 @@ p {
     margin: 5vh;
     height: 80%;
 }
+
+/* HOME PAGE AND LANDING // HOME PAGE AND LANDING */
+/* HOME PAGE AND LANDING // HOME PAGE AND LANDING */
+/* HOME PAGE AND LANDING // HOME PAGE AND LANDING */
+
+.home-page {
+    margin-top: 15vh;
+}
+
+.landing-page-image {
+    width: 80%;
+    height: 50vh;
+}
+
+.home-page-callout-text {
+    margin: 0;
+    font-size: 20px;
+}
+
+.mini-hours-content-wrapper {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 10vh;
+}
+
+/* COFFEE PAGE // COFFEE PAGE */
+/* COFFEE PAGE // COFFEE PAGE */
+/* COFFEE PAGE // COFFEE PAGE */
+
+.coffee-callout-text {
+    font-size: 20px;
+}
+
+
+/* WAFFLES PAGE // WAFFLES PAGE */
+/* WAFFLES PAGE // WAFFLES PAGE */
+/* WAFFLES PAGE // WAFFLES PAGE */
+
+/* WINE PAGE // WINE PAGE */
+/* WINE PAGE // WINE PAGE */
+/* WINE PAGE // WINE PAGE */
+
+
 
 /* HOURS PAGE // HOURS PAGE // HOURS PAGE  */
 /* HOURS PAGE // HOURS PAGE // HOURS PAGE  */
@@ -136,6 +171,8 @@ p {
 }
 
 .curio-hours-div {
+    display: flex;
+    justify-content: center;
     padding: 10px;
     margin: 15px;
     text-align: center;
