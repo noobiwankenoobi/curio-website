@@ -91,6 +91,7 @@ p {
 .main-page p {
     width: 70%;
     text-align: center;
+    color: #464654;
     /* margin: 5vh; */
 }
 
@@ -98,12 +99,14 @@ p {
     width: 70%;
     text-align: center;
     font-size: 60px;
+    color: #464654;
     margin: 5vh;
 }
 
 .main-page span {
     width: 70%;
     text-align: center;
+    color: #464654;
     margin: 5vh;
     height: 80%;
 }
@@ -130,7 +133,21 @@ p {
     display: flex;
     justify-content: center;
     align-content: center;
-    margin: 10vh;
+    width: 80%;
+    margin: 5vh;
+}
+
+.mini-curio-hours-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 20%;
+    margin: 5vh;
+}
+
+.mini-curio-hours-div span {
+    text-align: center;
+    margin: 0;
 }
 
 /* COFFEE PAGE // COFFEE PAGE */
