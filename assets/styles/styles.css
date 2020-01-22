@@ -13,6 +13,11 @@
 
 body {
     font-family: 'Work Sans', sans-serif;
+    font-size: 12px;
+}
+
+html {
+    font-size: 12px;
 }
 
 /* HEADER AND NAV // HEADER AND NAV // HEADER AND NAV */
@@ -34,15 +39,15 @@ header {
 li, a {
     /* font-family: 'Barlow', sans-serif; */
     font-weight: 400;
-    font-size: 16px;
-    color: #363636;
+    font-size: 1.25em;
+    color: #464654;
     text-decoration: none;
 }
 
 p {
     font-weight: 400;
-    font-size: 16px;
-    color: #363636;
+    font-size: 1.25em;
+    color: #464654;
 }
 
 .logo {
@@ -92,13 +97,14 @@ p {
     width: 70%;
     text-align: center;
     color: #464654;
+    font-size: 1.5em;
     /* margin: 5vh; */
 }
 
 .main-page h1 {
     width: 70%;
     text-align: center;
-    font-size: 60px;
+    font-size: 5em;
     color: #464654;
     margin: 5vh;
 }
@@ -106,6 +112,7 @@ p {
 .main-page span {
     width: 70%;
     text-align: center;
+    font-size: 1.5em;
     color: #464654;
     margin: 5vh;
     height: 80%;
@@ -126,7 +133,7 @@ p {
 
 .home-page-callout-text {
     margin: 0;
-    font-size: 20px;
+    font-size: 1.5em;
 }
 
 .mini-hours-content-wrapper {
@@ -142,7 +149,7 @@ p {
     flex-direction: column;
     justify-content: center;
     width: 20%;
-    margin: 5vh;
+    margin: 2vh;
 }
 
 .mini-curio-hours-div span {
@@ -162,6 +169,9 @@ p {
 /* WAFFLES PAGE // WAFFLES PAGE */
 /* WAFFLES PAGE // WAFFLES PAGE */
 /* WAFFLES PAGE // WAFFLES PAGE */
+
+
+
 
 /* WINE PAGE // WINE PAGE */
 /* WINE PAGE // WINE PAGE */

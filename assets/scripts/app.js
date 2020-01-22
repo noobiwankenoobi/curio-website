@@ -2,68 +2,15 @@
 
 // const clickEvents = require('./events.js')
 
-// NAV LINK CLICKS AND SHOWS DIFFERENT PAGES
-// NAV LINK CLICKS AND SHOWS DIFFERENT PAGES
+// NAV LINK CLICKS AND SCROLLS TO DIFFERENT PAGES
+// NAV LINK CLICKS AND SCROLLS TO DIFFERENT PAGES
 
-const showHomePage = () => {
-  $('.coffee-page').hide()
-  $('.waffles-page').hide()
-  $('.wine-page').hide()
-  $('.press-page').hide()
-  $('.hours-page').hide()
-  $('.home-page').show()
-  closeNav()
+function scrollToAnchor(aid){
+  var aTag = $("a[name='"+ aid +"']");
+  $('html,body').animate({scrollTop: aTag.offset().top},'slow');
 }
 
-const showCoffeePage = () => {
-  $('.home-page').hide()
-  $('.waffles-page').hide()
-  $('.wine-page').hide()
-  $('.press-page').hide()
-  $('.hours-page').hide()
-  $('.coffee-page').show()
-  closeNav()
-}
 
-const showWafflesPage = () => {
-  $('.home-page').hide()
-  $('.coffee-page').hide()
-  $('.wine-page').hide()
-  $('.press-page').hide()
-  $('.hours-page').hide()
-  $('.waffles-page').show()
-  closeNav()
-}
-
-const showWinePage = () => {
-  $('.home-page').hide()
-  $('.coffee-page').hide()
-  $('.waffles-page').hide()
-  $('.press-page').hide()
-  $('.hours-page').hide()
-  $('.wine-page').show()
-  closeNav()
-}
-
-const showPressPage = () => {
-  $('.home-page').hide()
-  $('.coffee-page').hide()
-  $('.waffles-page').hide()
-  $('.wine-page').hide()
-  $('.hours-page').hide()
-  $('.press-page').show()
-  closeNav()
-}
-
-const showHoursPage = () => {
-  $('.home-page').hide()
-  $('.coffee-page').hide()
-  $('.waffles-page').hide()
-  $('.wine-page').hide()
-  $('.press-page').hide()
-  $('.hours-page').show()
-  closeNav()
-}
 
 // HAMBURGER NAV EVENTS
 // HAMBURGER NAV EVENTS
@@ -80,13 +27,26 @@ const closeNav = () => {
 // EVENT HANDLERS
 
 const addHandlers = () => {
-  // Nav bar link handlers
-  $('.home-page-button').on('click', showHomePage)
-  $('.coffee-page-button').on('click', showCoffeePage)
-  $('.waffles-page-button').on('click', showWafflesPage)
-  $('.wine-page-button').on('click', showWinePage)
-  $('.press-page-button').on('click', showPressPage)
-  $('.hours-page-button').on('click', showHoursPage)
+  // Nav bar scroll to anchor
+  $("#home-page-button").click(function() {
+    scrollToAnchor('home-page-anchor');
+   });
+  $("#coffee-page-button").click(function() {
+    scrollToAnchor('coffee-page-anchor');
+   });
+   $("#waffles-page-button").click(function() {
+    scrollToAnchor('waffles-page-anchor');
+   });
+   $("#wine-page-button").click(function() {
+    scrollToAnchor('wine-page-anchor');
+   });
+   $("#press-page-button").click(function() {
+    scrollToAnchor('press-page-anchor');
+   });
+   $("hours-page-button").click(function() {
+    scrollToAnchor('hours-page-anchor');
+   });
+
   // Burger menu open/close handlers
   $('.close-btn').on('click', closeNav)
   $('.open-btn').on('click', openNav)
@@ -104,6 +64,5 @@ const addHandlers = () => {
 
 $(() => {
   // clickEvents.addHandlers()
-  showHomePage()
   addHandlers()
 })
