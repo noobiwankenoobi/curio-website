@@ -90,7 +90,7 @@ p {
 .main-page-image {
     max-width: 60%;
     height: auto;
-    margin: 5vh;
+    margin: 0px;
 }
 
 .main-page p {
@@ -157,13 +157,25 @@ p {
     margin: 0;
 }
 
+.home-page-story {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin-bottom: 15vh;
+}
+
 /* COFFEE PAGE // COFFEE PAGE */
 /* COFFEE PAGE // COFFEE PAGE */
 /* COFFEE PAGE // COFFEE PAGE */
 
 .coffee-callout-text {
     font-size: 20px;
+    margin: 0px;
 }
+
+
 
 
 /* WAFFLES PAGE // WAFFLES PAGE */
