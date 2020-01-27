@@ -3,7 +3,7 @@
 // SCROLL TO ANCHOR MAIN FUNCTION
 // SCROLL TO ANCHOR MAIN FUNCTION
 
-const scrollToAnchor =(anchorid) => {
+const scrollToAnchor = (anchorid) => {
   var aTag = $("a[name='"+ anchorid +"']");
   $('html,body').animate({scrollTop: aTag.offset().top},'slow');
 }
