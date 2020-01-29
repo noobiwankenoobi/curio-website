@@ -10,36 +10,43 @@ body {
     /* font-family: 'Barlow', sans-serif; */
 }
 
-/* DESKTOP SCREEN SIZE */
-/* DESKTOP SCREEN SIZE */
-/* DESKTOP SCREEN SIZE */
 
+/* FONT SIZES STARTS */
+/* FONT SIZES STARTS */
 
-/* FONT SIZES */
 
 h1 {
     font-size: 60px;
+    color: #464654;
 }
 
 h2 {
     font-size: 36px;
+    color: #464654;
 }
 
 h3 {
     font-size: 20px;
+    color: #464654;
+    font-weight: 400;
 }
 
 span {
     font-size: 18px;
+    color: #464654;
 }
 
 p {
     font-size: 18px;
+    color: #464654;
 }
 
-/* HEADER AND NAV */
-/* HEADER AND NAV */
-/* HEADER AND NAV */
+/* FONT SIZES ENDS */
+/* FONT SIZES ENDS */
+
+
+/* HEADER AND NAV STARTS */
+/* HEADER AND NAV STARTS */
 
 
 header {
@@ -91,10 +98,12 @@ p {
     color: grey;
 }
 
-/* MAIN PAGES // MAIN PAGES // MAIN PAGES  */
-/* MAIN PAGES // MAIN PAGES // MAIN PAGES  */
-/* MAIN PAGES // MAIN PAGES // MAIN PAGES  */
+/* HEADER AND NAV ENDS */
+/* HEADER AND NAV ENDS */
 
+
+/* MAIN PAGE STARTS */
+/* MAIN PAGE STARTS */
 
 .main-page {
     display: flex;
@@ -105,7 +114,7 @@ p {
 }
 
 .main-page-image {
-    max-width: 60%;
+    max-width: 50%;
     height: auto;
     margin: 0px;
 }
@@ -118,7 +127,7 @@ p {
 }
 
 .main-page h1 {
-    width: 80%;
+    width: 50%;
     text-align: center;
     font-size: 5em;
     color: #464654;
@@ -126,16 +135,19 @@ p {
 }
 
 .main-page span {
-    width: 80%;
+    width: 50%;
     text-align: center;
     color: #464654;
     margin: 5vh;
     height: 80%;
 }
 
-/* LANDING IMAGE TRANSITION */
-/* LANDING IMAGE TRANSITION */
+/* MAIN PAGE ENDS */
+/* MAIN PAGE ENDS */
 
+
+/* LANDING IMAGE STARTS */
+/* LANDING IMAGE STARTS */
 
 .landing-image-div-wrapper {
     display: block;
@@ -159,7 +171,11 @@ p {
     z-index: 1;
 }
 
-/* TRANSITION ANIMATION FOR LANDING IMAGES */
+/* LANDING IMAGE ENDS  */
+/* LANDING IMAGE ENDS  */
+
+/* LANDING IMAGE TRANSITION STARTS */
+/* LANDING IMAGE TRANSITION STARTS */
 
 .top {
     animation-name: fade;
@@ -184,23 +200,32 @@ p {
     }
   }
 
-  /* DIVIDER LINE STYLING */
+/* LANDING IMAGE TRANSITION ENDS */
+/* LANDING IMAGE TRANSITION ENDS */
+
+
+/* DIVIDER LINE STARTS */
+/* DIVIDER LINE STARTS */
 
   hr {
-    width: 80%;
+    width: 60%;
     margin-left: auto;
     margin-right: auto;
     border-top: 1px solid black;
     margin-top: 5vh;
     }
 
-/* HOME PAGE AND LANDING // HOME PAGE AND LANDING */
-/* HOME PAGE AND LANDING // HOME PAGE AND LANDING */
-/* HOME PAGE AND LANDING // HOME PAGE AND LANDING */
+/* DIVIDER LINE ENDS */
+/* DIVIDER LINE ENDS */
+
+
+/* LANDING SECTION STARTS */
+/* LANDING SECTION STARTS */
 
 .callout-text {
     margin: 0px;
     font-size: 20px;
+    text-align: center;
 }
 
 .home-section {
@@ -210,6 +235,7 @@ p {
 .home-section-callout-text {
     margin: 0;
     font-size: 20px;
+    text-align: center;
 }
 
 .mini-hours-content-wrapper {
@@ -239,40 +265,90 @@ p {
     justify-content: center;
     align-content: center;
     align-items: center;
-    margin-bottom: 15vh;
+    margin-bottom: 10vh;
 }
 
-/* COFFEE PAGE // COFFEE PAGE */
-/* COFFEE PAGE // COFFEE PAGE */
-/* COFFEE PAGE // COFFEE PAGE */
+/* LANDING SECTION ENDS */
+/* LANDING SECTION ENDS */
+
+
+/* COFFEE SECTION STARTS */
+/* COFFEE SECTION STARTS */
 
 .coffee-callout-text {
     font-size: 20px;
     margin: 0px;
 }
 
+/* COFFEE IMAGE GALLERY */
 
 
+.coffee-section-info-text {
+    margin: auto;
+    margin-bottom: 5vh;
+    align-items: center;
+}
+
+.coffee-section-info-text p {
+    text-align: justify;
+    width: 50%;
+}
+
+.coffee-info-and-gallery-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    padding: 10vh;
+    margin: auto;
+}
+
+.coffee-photo-gallery-div {
+    display: flex;
+    justify-content: space-around;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+
+.column {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 0 4px;
+    justify-content: center;
+    }
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    max-width: 50vh;
+    min-width: 50vh;
+  }
+
+/* COFFEE SECTION ENDS */
+/* COFFEE SECTION ENDS */
 
 
+/* WAFFLES SECTION STARTS */
+/* WAFFLES SECTION STARTS */
 
 
-/* WAFFLES PAGE // WAFFLES PAGE */
-/* WAFFLES PAGE // WAFFLES PAGE */
-/* WAFFLES PAGE // WAFFLES PAGE */
+/* WAFFLES SECTION ENDS */
+/* WAFFLES SECTION ENDS */
 
+/* WINE SECTION STARTS */
+/* WINE SECTION STARTS */
 
+/* WINE SECTION ENDS */
+/* WINE SECTION ENDS */
 
-
-/* WINE PAGE // WINE PAGE */
-/* WINE PAGE // WINE PAGE */
-/* WINE PAGE // WINE PAGE */
-
-
-
-/* HOURS PAGE // HOURS PAGE // HOURS PAGE  */
-/* HOURS PAGE // HOURS PAGE // HOURS PAGE  */
-/* HOURS PAGE // HOURS PAGE // HOURS PAGE  */
+/* HOURS SECTION STARTS */
+/* HOURS SECTION STARTS */
 
 
 .hours-content-wrapper {
@@ -310,10 +386,13 @@ p {
     margin: 20px;
 }
 
-/* BURGER MENU // BURGER MENU // BURGER MENU */
-/* BURGER MENU // BURGER MENU // BURGER MENU */
-/* BURGER MENU // BURGER MENU // BURGER MENU */
+/* HOURS SECTION ENDS */
+/* HOURS SECTION ENDS */
 
+
+
+/* HAMBURGER MENU STARTS */
+/* HAMBURGER MENU STARTS */
 
 .burger-menu  {
     display:flex;
@@ -359,11 +438,11 @@ p {
       display: none;
   }
 
+/* HAMBURGER MENU ENDS */
+/* HAMBURGER MENU ENDS */
 
-/* INTERMEDIATE SCREEN WIDTH // INTERMEDIATE SCREEN WIDTH */
-/* INTERMEDIATE SCREEN WIDTH // INTERMEDIATE SCREEN WIDTH */
-/* INTERMEDIATE SCREEN WIDTH // INTERMEDIATE SCREEN WIDTH */
-
+/* INTERMEDIATE SCREEN SIZE STARTS */
+/* INTERMEDIATE SCREEN SIZE STARTS */
 
   @media screen and (max-width: 1130px) {
     .nav-links li {
@@ -371,13 +450,13 @@ p {
     }
   }
 
+/* INTERMEDIATE SCREEN SIZE ENDS */
+/* INTERMEDIATE SCREEN SIZE ENDS */
 
-/* MOBILE SCREEN // MOBILE SCREEN // MOBILE SCREEN */
-/* MOBILE SCREEN // MOBILE SCREEN // MOBILE SCREEN */
-/* MOBILE SCREEN // MOBILE SCREEN // MOBILE SCREEN */
-/* MOBILE SCREEN // MOBILE SCREEN // MOBILE SCREEN */
-/* MOBILE SCREEN // MOBILE SCREEN // MOBILE SCREEN */
 
+
+/* MOBILE SCREEN SIZE STARTS */
+/* MOBILE SCREEN SIZE STARTS */
 
   @media screen and (max-width: 768px){
     header {
@@ -445,3 +524,7 @@ p {
 
 
   }
+
+/* MOBILE SCREEN SIZE ENDS */
+/* MOBILE SCREEN SIZE ENDS */
+
