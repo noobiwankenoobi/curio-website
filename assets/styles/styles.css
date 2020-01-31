@@ -230,6 +230,7 @@ p {
 
 .home-section {
     margin-top: 15vh;
+    margin-bottom: 10vh;
 }
 
 .home-section-callout-text {
@@ -241,17 +242,17 @@ p {
 .mini-hours-content-wrapper {
     display: flex;
     justify-content: center;
+    flex-direction: row;
     align-content: center;
     width: 80%;
     margin: 5vh;
 }
 
 .mini-curio-hours-div {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 20%;
+    text-align: center;
+    width: 30%;
     margin: 2vh;
+    padding: 2vh;
 }
 
 .mini-curio-hours-div span {
@@ -265,7 +266,7 @@ p {
     justify-content: center;
     align-content: center;
     align-items: center;
-    margin-bottom: 10vh;
+    /* margin-bottom: 10vh; */
 }
 
 /* LANDING SECTION ENDS */
@@ -274,6 +275,10 @@ p {
 
 /* COFFEE SECTION STARTS */
 /* COFFEE SECTION STARTS */
+
+.coffee-section {
+    margin-bottom: 10vh;
+}
 
 .coffee-callout-text {
     font-size: 20px;
@@ -301,6 +306,7 @@ p {
     width: 100%;
     padding: 10vh;
     margin: auto;
+
 }
 
 .coffee-photo-gallery-div {
@@ -337,19 +343,31 @@ p {
 /* WAFFLES SECTION STARTS */
 /* WAFFLES SECTION STARTS */
 
+.waffles-section {
+    margin-bottom: 10vh;
+}
 
 /* WAFFLES SECTION ENDS */
 /* WAFFLES SECTION ENDS */
 
+
 /* WINE SECTION STARTS */
 /* WINE SECTION STARTS */
+
+.wine-section {
+    margin-bottom: 10vh;
+}
 
 /* WINE SECTION ENDS */
 /* WINE SECTION ENDS */
 
+
 /* HOURS SECTION STARTS */
 /* HOURS SECTION STARTS */
 
+.hours-section {
+    margin-bottom: 10vh;
+}
 
 .hours-content-wrapper {
     display: flex;
@@ -388,6 +406,13 @@ p {
 
 /* HOURS SECTION ENDS */
 /* HOURS SECTION ENDS */
+
+
+/* FOOTER SECTION BEGINS  */
+/* FOOTER SECTION BEGINS  */
+
+/* FOOTER SECTION ENDS  */
+/* FOOTER SECTION ENDS  */
 
 
 
@@ -441,6 +466,8 @@ p {
 /* HAMBURGER MENU ENDS */
 /* HAMBURGER MENU ENDS */
 
+
+
 /* INTERMEDIATE SCREEN SIZE STARTS */
 /* INTERMEDIATE SCREEN SIZE STARTS */
 
@@ -455,72 +482,109 @@ p {
 
 
 
-/* MOBILE SCREEN SIZE STARTS */
-/* MOBILE SCREEN SIZE STARTS */
+/* MOBILE SCREEN SIZE STARTS // MOBILE SCREEN SIZE STARTS */
+/* MOBILE SCREEN SIZE STARTS // MOBILE SCREEN SIZE STARTS */
+/* MOBILE SCREEN SIZE STARTS // MOBILE SCREEN SIZE STARTS */
+/* MOBILE SCREEN SIZE STARTS // MOBILE SCREEN SIZE STARTS */
 
   @media screen and (max-width: 768px){
+
+/* MOBILE HEADER SECTION STARTS */
+/* MOBILE HEADER SECTION STARTS */
+
     header {
         justify-content: center;
-        align-content: center;
+        /* align-content: center; */
         align-items: right;
         padding: 20px 10%;
         height: 20vh;
+        width: 100%;
     }
+
+    #burger-button {
+        display: inline-block;
+        margin-left: auto;
+      }
+
+
+/* MOBILE HEADER SECTION ENDS */
+/* MOBILE HEADER SECTION ENDS */
+
+/* MOBILE MAIN SECTION STARTS */
+/* MOBILE MAIN SECTION STARTS */
+
 
     .main-page {
         font-size: 12px;
-        width: 100%
+        width: 100%;
     }
 
     .main-page h1 {
-        font-size: 3.7em;
+        font-size: 48px;
         margin: 2vh;
     }
 
     .main-page p {
-        font-size: 1.5em;
+        font-size: 14px;
     }
 
     p {
         font-family: 'Work Sans', sans-serif;
         font-weight: 400;
-        font-size: 1.5em;
-        color: #363636;
+        font-size: 14px;
+        /* color: #363636; */
         text-decoration: none;
+        width: 100%;
+        margin: 2vh;
     }
 
     span {
-        font-size: 1.5em;
-    }
+        font-size: 12px;
+        }
     
     .nav-links {
-          display: none;
+        display: none;
       }
 
-      .main-page-image {
-          max-width: 90%;
-          margin-bottom: 5px;
-          margin-top: 5vh;
-          padding: 0px;
+    .main-page-image {
+        max-width: 90%;
+        /* margin-bottom: 5px; */
+        margin-top: 5vh;
+        padding: 0px;
       }
 
-    
+/* MOBILE MAIN SECTION ENDS */
+/* MOBILE MAIN SECTION ENDS */
 
-      #burger-button {
-          display: inline-block;
-          margin-left: auto;
+
+/* MOBILE COFFEE SECTION STARTS */
+/* MOBILE COFFEE SECTION STARTS */
+
+    .coffee-info-and-gallery-div {
+        display: none;
+        flex-wrap: wrap;
+    }
+
+/* MOBILE COFFEE SECTION ENDS */
+/* MOBILE COFFEE SECTION ENDS */
+
+
+/* MOBILE WAFFLES SECTION STARTS */
+/* MOBILE WAFFLES SECTION STARTS */
+
+/* MOBILE WAFFLES SECTION ENDS */
+/* MOBILE WAFFLES SECTION ENDS */
+
+
+    .hours-content-wrapper {
+        display: flex;
+        flex-direction: column;
       }
 
-      .hours-content-wrapper {
-          display: flex;
-          flex-direction: column;
-        
-      }
-
-      .curio-hours-div {
+    .curio-hours-div {
         margin: 5px;
         text-align: center;
-        }
+    }
 
 
   }
