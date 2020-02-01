@@ -11,6 +11,8 @@ body {
 }
 
 
+
+
 /* FONT SIZES STARTS */
 /* FONT SIZES STARTS */
 
@@ -28,7 +30,9 @@ h2 {
 h3 {
     font-size: 20px;
     color: #464654;
-    font-weight: 400;
+    /* font-weight: 400; */
+    /* text-emphasis: none;
+    text-decoration: none; */
 }
 
 span {
@@ -43,7 +47,6 @@ p {
 
 /* FONT SIZES ENDS */
 /* FONT SIZES ENDS */
-
 
 /* HEADER AND NAV STARTS */
 /* HEADER AND NAV STARTS */
@@ -80,6 +83,7 @@ p {
     height: 80px;
     width: 80px;
 }
+
 
 .nav-links {
     list-style: none;
@@ -140,6 +144,10 @@ p {
     color: #464654;
     margin: 5vh;
     height: 80%;
+}
+
+.section-divider {
+    height: 10vh;
 }
 
 /* MAIN PAGE ENDS */
@@ -230,7 +238,7 @@ p {
 
 .home-section {
     margin-top: 15vh;
-    margin-bottom: 10vh;
+    /* margin-bottom: 10vh; */
 }
 
 .home-section-callout-text {
@@ -285,8 +293,6 @@ p {
     margin: 0px;
 }
 
-/* COFFEE IMAGE GALLERY */
-
 
 .coffee-section-info-text {
     margin: auto;
@@ -298,6 +304,8 @@ p {
     text-align: justify;
     width: 50%;
 }
+
+/* COFFEE IMAGE GALLERY STARTS */
 
 .coffee-info-and-gallery-div {
     display: flex;
@@ -336,6 +344,20 @@ p {
     min-width: 50vh;
   }
 
+/* COFFEE IMAGE GALLERY ENDS */
+
+.counter-culture-info-div p {
+    text-align: justify;
+    width: 50%;
+    padding: 5vh;
+}
+
+.other-coffee-program-info-div p {
+    text-align: justify;
+    width: 50%;
+    padding: 5vh;
+}
+
 /* COFFEE SECTION ENDS */
 /* COFFEE SECTION ENDS */
 
@@ -347,6 +369,12 @@ p {
     margin-bottom: 10vh;
 }
 
+.waffles-section-info-text p {
+    text-align: justify;
+    width: 50%;
+    padding: 5vh;
+}
+
 /* WAFFLES SECTION ENDS */
 /* WAFFLES SECTION ENDS */
 
@@ -356,6 +384,30 @@ p {
 
 .wine-section {
     margin-bottom: 10vh;
+}
+
+.wine-section-info-text p {
+    text-align: justify;
+    width: 50%;
+    padding: 5vh;
+}
+
+.wine-photo-gallery-div {
+    display: flex;
+    justify-content: space-around;
+}
+
+.other-wine-program-info-div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.other-wine-program-info-div p {
+    text-align: justify;
+    width: 50%;
+    padding: 5vh;
 }
 
 /* WINE SECTION ENDS */
@@ -372,33 +424,43 @@ p {
 .hours-content-wrapper {
     display: flex;
     justify-content: center;
-    align-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 5vh;
 }
 
 .curio-hours-div {
     display: flex;
     justify-content: center;
     padding: 10px;
+    margin: 2vh;
+    text-align: center;
+    width: 30%;
+}
+
+.address-div {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
     margin: 15px;
     text-align: center;
+    width: 30%;
 }
 
-.east-cambridge {
-    font-size: 14px;
-    width: 80%;
-    margin: 10px;
-    text-align: center;
-}
-
-.address {
-    text-align: center;
-}
-
-.social-media-icons {
+.social-media-icons-div {
     display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.social-media-icons li {
+.social-media-icons-div p {
+    text-align: justify;
+    width: 50%;
+    padding: 5vh;
+}
+
+.social-media-icons-div li {
     display: inline-block;
     text-decoration: none;
     margin: 20px;
@@ -410,6 +472,11 @@ p {
 
 /* FOOTER SECTION BEGINS  */
 /* FOOTER SECTION BEGINS  */
+
+footer {
+    height: 15vh;
+    bottom: 0;
+}
 
 /* FOOTER SECTION ENDS  */
 /* FOOTER SECTION ENDS  */
