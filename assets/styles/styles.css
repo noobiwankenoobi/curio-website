@@ -118,13 +118,13 @@ p {
 }
 
 .main-page-image {
-    max-width: 50%;
+    max-width: 60%;
     height: auto;
     margin: 0px;
 }
 
 .main-page p {
-    width: 80%;
+    /* width: 80%; */
     text-align: center;
     color: #464654;
     margin: auto;
@@ -186,15 +186,15 @@ p {
 .transition-image-div {
     display: flex;
     margin: auto;
-    width: 80%;
-    height: 60vh;
+    width: 100%;
+    height: 80vh;
     justify-content: center;
 }
 
 .transition-image-div img {
     position: absolute;
-    height: 60vh;
-    max-width: 100%;
+    /* height: 60vh; */
+    max-width: 60%;
     margin: auto;
     z-index: 1;
 }
@@ -240,7 +240,7 @@ p {
     margin-left: auto;
     margin-right: auto;
     border-top: 1px solid black;
-    margin-top: 5vh;
+    margin: 5vh auto;
     }
 
 /* DIVIDER LINE ENDS */
@@ -273,14 +273,14 @@ p {
     flex-direction: row;
     align-content: center;
     width: 80%;
-    margin: 5vh;
+    margin: 0 0 5vh 0;
 }
 
 .mini-curio-hours-div {
     text-align: center;
     width: 30%;
-    margin: 2vh;
-    padding: 2vh;
+    margin: 5% 2%;
+    /* padding: 2vh; */
 }
 
 .mini-curio-hours-div span {
@@ -294,30 +294,40 @@ p {
     justify-content: center;
     align-content: center;
     align-items: center;
+    margin: 5vh 0;
+    width: 100%;
     /* margin-bottom: 10vh; */
 }
 
-/* LANDING SECTION ENDS */
-/* LANDING SECTION ENDS */
-
-
-/* COFFEE SECTION STARTS */
-/* COFFEE SECTION STARTS */
-
-.coffee-section {
-    margin-bottom: 10vh;
+.home-section-story p {
+    text-align: justify;
+    width: 50%;
+    /* padding: 5vh; */
 }
+
+/* LANDING SECTION ENDS */
+/* LANDING SECTION ENDS */
+
+
+/* COFFEE SECTION STARTS */
+/* COFFEE SECTION STARTS */
+
+/* .coffee-section {
+    margin-bottom: 10vh;
+} */
 
 .coffee-callout-text {
     font-size: 20px;
     margin: 0px;
 }
 
-
 .coffee-section-info-text {
-    margin: auto;
-    margin-bottom: 5vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     align-items: center;
+    margin: 5vh auto;
+    
 }
 
 .coffee-section-info-text p {
@@ -327,55 +337,63 @@ p {
 
 /* COFFEE IMAGE GALLERY STARTS */
 
-.coffee-info-and-gallery-div {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 100%;
-    padding: 10vh;
-    margin: auto;
-
-}
 
 .coffee-photo-gallery-div {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    max-width: 70%;
+    margin: auto;
 }
 
 .row {
     display: flex;
     justify-content: center;
+    flex-direction: row;
     flex-wrap: wrap;
     padding: 0 4px;
   }
 
 .column {
     display: flex;
+    flex: 50%;
     flex-direction: column;
-    width: 50%;
+    align-items: center;
+    align-content: center;
+    max-width: 50%;
     padding: 0 4px;
     justify-content: center;
+    margin: auto;
     }
 
 .column img {
     margin-top: 8px;
     vertical-align: middle;
-    max-width: 50vh;
-    min-width: 50vh;
+    width: 100%;
+    /* max-width: 40%;
+    max-height: 100%; */
+    /* min-width: 50vh; */
   }
 
 /* COFFEE IMAGE GALLERY ENDS */
 
+.counter-culture-info-div {
+    margin: 5vh 0;
+}
+
 .counter-culture-info-div p {
     text-align: justify;
     width: 50%;
-    padding: 5vh;
+}
+
+.other-coffee-program-info-div {
+    margin: 5vh 0;
 }
 
 .other-coffee-program-info-div p {
     text-align: justify;
     width: 50%;
-    padding: 5vh;
 }
 
 /* COFFEE SECTION ENDS */
@@ -393,6 +411,14 @@ p {
     text-align: justify;
     width: 50%;
     padding: 5vh;
+}
+
+.waffles-photo-gallery-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 70%;
+    margin: auto;
 }
 
 /* WAFFLES SECTION ENDS */
@@ -414,7 +440,10 @@ p {
 
 .wine-photo-gallery-div {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    max-width: 70%;
+    margin: auto;
 }
 
 .other-wine-program-info-div {
@@ -615,9 +644,6 @@ footer {
         margin: 2vh;
     }
 
-    .main-page p {
-        font-size: 14px;
-    }
 
     p {
         font-family: 'Work Sans', sans-serif;
@@ -626,7 +652,7 @@ footer {
         /* color: #363636; */
         text-decoration: none;
         width: 100%;
-        margin: 2vh;
+        margin: 0;
     }
 
     span {
@@ -651,10 +677,11 @@ footer {
 /* MOBILE COFFEE SECTION STARTS */
 /* MOBILE COFFEE SECTION STARTS */
 
-    .coffee-info-and-gallery-div {
-        display: none;
-        flex-wrap: wrap;
-    }
+      .image-gallery-div {
+          display: none;
+          max-width: 90%;
+          overflow: hidden;
+      }
 
 /* MOBILE COFFEE SECTION ENDS */
 /* MOBILE COFFEE SECTION ENDS */
