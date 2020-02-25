@@ -121,6 +121,7 @@ p {
     max-width: 60%;
     height: auto;
     margin: 0px;
+    /* margin-top: 15vh; */
 }
 
 .main-page p {
